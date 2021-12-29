@@ -12,7 +12,7 @@ $$ {{C_{i,j}} = 0} , {i,j = 1,2,...,N} $$
 $$ {{t_{i,j}} = 0} , {i,j = 1,2,...,N} $$
 2. Competion and Ranking : Find the distances between random neurons and data locations and find their ranks (${K_i}$).
 3. Adaptation: As known as learning step of algorithm with below rule. $\zeta {e^{ - \left( {\frac{{{K_i}}}{\lambda }} \right)}}$ known as learning rate for neurons.
-$${\omega _i}^{new} = {\omega _i}^{old} + \zeta {e^{ - \left( {\frac{{{K_i}}}{\lambda }} \right)}}(x - {\omega _i}^{old}),\forall i = 1,2,...,N $$
+$${\omega _i}^{new} = {\omega _i}^{old} + \zeta {e^{ - \left( {\frac{{{K_i}}}{\lambda }} \right)}}(x - {\omega _i}^{old}),\forall i = 1,2,...,N$$
 4. Creating Links: Create a node between high-rank neurons if there is not a link already.
 5. Aging: If neuron $i$ has a $0$ order rank ($K_i = 0$), the age of all edges increases. Therefore, all the edges that have connection with neuron $i$ their age increase.
 6. Remove Old Links: If the age between neurons $i$ and $j$ is more than a certain value (Threshold), then that neighborhood should be broken.
