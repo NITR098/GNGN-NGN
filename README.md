@@ -7,7 +7,7 @@ There are many varieties of neural networks that have been applied towards featu
 
 This network is one of the **Competitive Neural Networks** which tries to learn the abstract topologies of data structure. Neural gas is an artificial neural network, inspired by the self-organizing map and introduced in 1991 by _**Thomas Martinetz**_ and _**Klaus Schulten**_. The neural gas is a simple algorithm for finding optimal data representations based on feature vectors. The algorithm was coined "neural gas" because of the dynamics of the feature vectors during the adaptation process, which distribute themselves like a gas within the data space. This algorithm consists of these steps:
 1. Select Input Vector and Initialization. $\omega_i$ is random locations of neurons, $C_{i,j}$ is index of edges between neurons and $t_{i,j}$ is time interval from the last $C_{i,j}$ edge reinforcement where if this parameter exceeds a threshold value, naturally this edge should be broken.
-$$ {{\omega _i} \in {\mathbb{R}^n}} , {i = 1,2,...,N} $$
+$$ {{\omega_i} \in {\mathbb{R}^n}} , {i = 1,2,...,N} $$
 $$ {{C_{i,j}} = 0} , {i,j = 1,2,...,N} $$
 $$ {{t_{i,j}} = 0} , {i,j = 1,2,...,N} $$
 2. Competion and Ranking : Find the distances between random neurons and data locations and find their ranks (${K_i}$).
